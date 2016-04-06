@@ -149,12 +149,6 @@ namespace MiningBForce
                     Stream dataStream1 = response1.GetResponseStream();
                     StreamReader reader1 = new StreamReader(dataStream1);
                     string result1 = reader1.ReadToEnd();
-                    Console.WriteLine(result1);
-                    Console.WriteLine(result1);
-                    Console.WriteLine(result1);
-                    Console.WriteLine(result1);
-                    Console.WriteLine(result1);
-                    Console.WriteLine(result1);
                     if (result1 == "1")
                     {
                         Console.WriteLine("======================================================================");
@@ -197,12 +191,6 @@ namespace MiningBForce
                     Stream dataStream2 = response2.GetResponseStream();
                     StreamReader reader2 = new StreamReader(dataStream2);
                     string result2 = reader2.ReadToEnd();
-                    Console.WriteLine(result2);
-                    Console.WriteLine(result2);
-                    Console.WriteLine(result2);
-                    Console.WriteLine(result2);
-                    Console.WriteLine(result2);
-                    Console.WriteLine(result2);
                     if (result2 == "1")
                     {
                         Console.WriteLine("======================================================================");
